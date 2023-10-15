@@ -1,16 +1,7 @@
-import { useState } from 'react'
-
-
+import Body from "./components/Body";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div>
-      <h1 className='text-3xl text-red-600'>Heloo</h1>
-    </div>
-     
-  )
+  return <Body />;
 }
 
-export default App
+export default App;
